@@ -18,7 +18,7 @@ import pickle
 
 def email_template(subject, body):
     gmail_user = 'roboreefpi@gmail.com'  
-    gmail_password = 'bitterwolf'
+    gmail_password = '---'
     sent_from = gmail_user  
     to = ['scunningham@mlml.calstate.edu', 'sbitterw@ucsc.edu']  # make as many as you want within []
     message = 'Subject: {}\n\n{}'.format(subject, body)
